@@ -1,0 +1,159 @@
+.ui-autocomplete {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  display: none;
+  min-width: 160px;
+  _width: 160px;
+  padding: 4px 0;
+  margin: 2px 0 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+
+  .ui-menu-item > a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #2b3e50;
+    white-space: nowrap;
+
+    &.ui-state-hover, &.ui-state-active {
+      color: #ffffff;
+      text-decoration: none;
+      background-color: #0088cc;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      background-image: none;
+    }
+  }
+}
+
+.ui-menu-item{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 65px;
+}
+
+header a:hover{
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover{
+    color: #DA4453;
+}
+
+h2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+}
+
+body{
+    background: #F5F7FA;
+}
+
+h1 a{
+    color: #ebebeb;
+    margin-left: 150px;
+}
+
+header{
+    background-color: #DA4453;
+}
+
+#mainNav {
+float: right;
+padding-top: 20px;
+padding-right: 0px;
+margin-right: 20px;
+}
+
+#mainNav li {
+font-family: 'lobster', sans-serif;
+font-size: 25px;
+font-weight: 400;
+display: inline;
+text-decoration: none !important;
+padding: 10px;
+}
+
+#mainNav a{
+    color: #ebebeb
+}
+
+.form-control{
+    border: 1px solid #999;
+    height: 59px;
+    border-right-color: #ffffff;
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
+    border-color: rgba(229, 103, 23, 0.8);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);
+    outline: 0 none;
+}
+
+footer{
+    border-top: 1px dotted #ccc;
+    margin: 30px auto;
+    width: 500px;
+
+}
+
+#ptitle{
+    font-size: 17px;
+}
+
+p{
+    text-align: center;
+    color: #444;
+}
+
+a{
+    color: #444;
+}
+.btn-default{
+    color:#838383;
+    border-left: none;
+    border-color: #999;
+    border-left-color: #ffffff;
+    background-color: #ffffff;
+    height: 59px;
+}
+
+.btn-default:hover{
+    background-color: #DA4453;
+}
+
+#desc{
+    font-size: 18px;
+    padding: 10px 60px 0px;
+    text-align: justify;
+    color: #444;
+}
+
+h3{
+
+    color: #444;
+}
