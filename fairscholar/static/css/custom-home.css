@@ -75,11 +75,10 @@ body{
 
 h1 a{
     color: #ebebeb;
-    margin-left: 150px;
 }
 
 header{
-    background-color: #DA4453;
+    background-color: #19938b;
 }
 
 #mainNav {
@@ -116,13 +115,9 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 
 footer{
     border-top: 1px dotted #ccc;
-    margin: 30px auto;
+    margin: 50px auto;
     width: 500px;
 
-}
-
-#ptitle{
-    font-size: 17px;
 }
 
 p{
@@ -131,7 +126,7 @@ p{
 }
 
 a{
-    color: #444;
+    color: #19938b;
 }
 .btn-default{
     color:#838383;
@@ -143,7 +138,7 @@ a{
 }
 
 .btn-default:hover{
-    background-color: #DA4453;
+    background-color: #19938b;
 }
 
 #desc{
